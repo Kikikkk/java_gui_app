@@ -1,0 +1,6 @@
+яблоко | apple
+дом | house
+кот | cat
+стекло | glass
+мяч | ball
+мячик | ball

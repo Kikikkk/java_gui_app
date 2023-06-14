@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #260934;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Controller1">
+    <children>
+        <AnchorPane layoutY="94.0" prefHeight="306.0" prefWidth="700.0" style="-fx-background-color: #EEE6F9;">
+         <children>
+            <MenuButton layoutX="230.0" layoutY="80.0" mnemonicParsing="false" style="-fx-background-color: #EEE6F9; -fx-border-color: #260934; -fx-border-width: 2; -fx-border-radius: 10;" text="Выберите действие" textFill="#260934">
+              <items>
+                <MenuItem fx:id="move1" mnemonicParsing="false" text="Действие 1" />
+                <MenuItem fx:id="move2" mnemonicParsing="false" text="Действие 2" />
+                  <MenuItem fx:id="move3" mnemonicParsing="false" text="Действие 3" />
+                  <MenuItem fx:id="move4" mnemonicParsing="false" text="Действие 4" />
+              </items>
+               <font>
+                  <Font name="Franklin Gothic Demi" size="20.0" />
+               </font>
+            </MenuButton>
+            <TextArea fx:id="outputText" editable="false" layoutX="154.0" layoutY="137.0" prefHeight="66.0" prefWidth="390.0" promptText="Здесь будут отображаться действия вашего героя" style="-fx-border-radius: 10; -fx-background-color: #ffffff; -fx-border-color: #260934; -fx-border-width: 2;" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="15.0" />
+               </font>
+            </TextArea>
+            <TextArea editable="false" layoutX="155.0" layoutY="14.0" prefHeight="50.0" prefWidth="389.0" style="-fx-background-color: #ffffff; -fx-border-color: #260934; -fx-border-radius: 10; -fx-border-width: 2;" text="Введите значение от 1 до 6, &#10;чтобы выбрать метод передвижения главного героя." wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="15.0" />
+               </font>
+            </TextArea>
+            <Button fx:id="exit_button" layoutX="28.0" layoutY="234.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="142.0" style="-fx-background-color: #260934;" text="Вернуться на главный экран" textAlignment="CENTER" textFill="#eee6f9" textOverrun="CLIP" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="13.0" />
+               </font>
+            </Button>
+         </children>
+        </AnchorPane>
+        <Label layoutX="245.0" layoutY="25.0" prefHeight="50.0" prefWidth="210.0" text="Программа 1" textAlignment="CENTER" textFill="#eee6f9">
+            <font>
+                <Font name="DejaVu Sans Condensed Bold" size="30.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

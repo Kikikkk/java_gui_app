@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #260934;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainController">
+   <children>
+      <AnchorPane layoutY="94.0" prefHeight="306.0" prefWidth="700.0" style="-fx-background-color: #EEE6F9;">
+         <children>
+            <Button fx:id="open_button1" layoutX="100.0" layoutY="49.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #EEE6F9; -fx-border-color: #260934; -fx-border-radius: 10; -fx-border-width: 2;" text="Программа №1" textFill="#260934">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="open_button2" layoutX="100.0" layoutY="128.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #EEE6F9; -fx-border-color: #260934; -fx-border-radius: 10; -fx-border-width: 2;" text="Программа №2" textFill="#260934">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="open_button3" layoutX="100.0" layoutY="210.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #EEE6F9; -fx-border-color: #260934; -fx-border-radius: 10; -fx-border-width: 2;" text="Программа №3" textFill="#260934">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="open_button4" layoutX="473.0" layoutY="49.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #EEE6F9; -fx-border-color: #260934; -fx-border-radius: 10; -fx-border-width: 2;" text="Программа №4" textFill="#260934">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="open_button5" layoutX="473.0" layoutY="128.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #EEE6F9; -fx-border-color: #260934; -fx-border-radius: 10; -fx-border-width: 2;" text="Программа №5" textFill="#260934">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="open_button6" layoutX="473.0" layoutY="210.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #EEE6F9; -fx-border-color: #260934; -fx-border-radius: 10; -fx-border-width: 2;" text="Программа №6" textFill="#260934">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="296.0" layoutY="14.0" prefHeight="66.0" prefWidth="108.0" text="MyApp" textAlignment="CENTER" textFill="#eee6f9">
+         <font>
+            <Font name="DejaVu Sans Condensed Bold" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
